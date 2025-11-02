@@ -161,6 +161,10 @@ main {
     padding-bottom: 1rem;
     margin-bottom: 2rem;
     background-color: var(--bg-color);
+    box-shadow: none;
+    position: static;
+    color: var(--text-color);
+    padding: 0 0 1rem 0;
 }
 
 .post-title {
