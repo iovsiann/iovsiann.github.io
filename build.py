@@ -98,6 +98,14 @@ def process_post(md_file):
     # Convert markdown to HTML
     html_content = convert_markdown_to_html(markdown_content)
 
+    # Add Substack subscription link at the end
+    substack_link = '''
+<div class="substack-subscribe">
+    <p><a href="https://iliaov.substack.com/" target="_blank">Subscribe on Substack</a> to get updates when new posts are published.</p>
+</div>
+'''
+    html_content += substack_link
+
     # Load template
     with open(TEMPLATE_FILE, 'r', encoding='utf-8') as f:
         template = f.read()

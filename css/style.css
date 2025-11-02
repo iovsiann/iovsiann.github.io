@@ -98,6 +98,19 @@ main {
     margin: 0 auto;
 }
 
+/* Blog Intro */
+.blog-intro {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.blog-intro p {
+    font-size: 1.2rem;
+    color: var(--text-light);
+}
+
 /* Blog Posts */
 .blog-posts {
     display: grid;
@@ -252,6 +265,29 @@ main {
     margin: 1rem 0;
     color: var(--text-light);
     font-style: italic;
+}
+
+.substack-subscribe {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background-color: var(--bg-light);
+    border-left: 4px solid var(--secondary-color);
+    border-radius: 5px;
+}
+
+.substack-subscribe p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.substack-subscribe a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.substack-subscribe a:hover {
+    text-decoration: underline;
 }
 
 .back-link {
