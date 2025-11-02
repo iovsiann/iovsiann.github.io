@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Founder Update: The Drawbacks of Using Claude.ai" - Ilia Ovsiannikov</title>
+    <meta name="description" content="An honest assessment of Claude's limitations - and why I still consider it my best cofounder despite the drawbacks.">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html" class="logo">Dr.&nbsp;Ilia&nbsp;O.</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Blog</a></li>
+                <li><a href="../resume.html">Resume</a></li>
+                <li><a href="../patents.html">Patents</a></li>
+                <li><a href="../publications.html">Publications</a></li>
+                <li><a href="https://iliaov.substack.com/" target="_blank">Substack</a></li>
+                <li><a href="https://www.linkedin.com/in/iliao/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://scholar.google.com/citations?user=UMqM9DQAAAAJ" target="_blank">Scholar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <header class="post-header">
+                <h1 class="post-title">"Founder Update: The Drawbacks of Using Claude.ai"</h1>
+                <div class="post-meta">
+                    <time datetime="2025-10-15">October 15, 2025</time>
+                </div>
+            </header>
+
+            <div class="post-content">
+                <p><strong>TL;DR for busy professionals:</strong><br />
+- Claude codes like a brilliant junior developer — and here's how to compensate for that.<br />
+- I've managed to break Claude (and figured out how to fix it).<br />
+- My real pain is Claude's presentations and artifacts (and why).<br />
+- Sometimes Claude doesn't know something — and that's OK (easy fix).<br />
+- I still love Claude — she gives me a 48× productivity multiplier.</p>
+<p>In a previous post, I promised to write about the drawbacks of using Claude.ai.</p>
+<p>I've been delaying it — because, honestly, I've struggled to find any.</p>
+<p>I've been using Claude for about three months, and I meant it when I wrote that Claude has been my de-facto cofounder while I search for a human one.<br />
+- Someone to bounce ideas with.<br />
+- Erudite. Available 24/7. Eager to help.<br />
+- All for $20 per month.</p>
+<p>Claude has built the entire MVP prototype for my startup Remake.ai — and I could not be happier with the results.</p>
+<p>But, yes — there are drawbacks. Let's get into them.</p>
+<h2>👧1. Claude codes like a brilliant, yet junior developer</h2>
+<p>Claude's first-pass implementations consistently look like the work of a brilliant but junior dev.</p>
+<p>Here's my workflow:<br />
+I prompt Claude to implement a feature — without over-specifying how. Claude builds it the way she prefers. Then I test it. Usually, I ask for refactors: break large files apart, adjust class structure, improve reusability.</p>
+<p>I prefer it this way.<br />
+Because I'm developing a non-standard system, I often don't know the final structure yet.<br />
+Claude's first pass helps me see possibilities I wouldn't have thought of.</p>
+<p>Claude needs senior-level supervision — someone who can architect, review, and guide. Without that, the codebase will quickly turn messy. I feel that consistently.</p>
+<p>When I combine Claude's energy with my architectural judgment, the result is stunning:<br />
+a year of work done in a month, while personally coding maybe 25% of it. That's my 48× productivity multiplier.</p>
+<h2>🤕2. How I broke Claude (and how to fix it)</h2>
+<p>Sometimes, Claude just... gets the flu.</p>
+<p>Performance drops, attention to detail slips.</p>
+<p>Once I noticed the async keyword missing in front of some Python functions. I prompted Claude to fix that - and offhandedly referred to those functions as "non-async,"</p>
+<p>A couple of prompts later, I noticed Claude started forgetting to prepend async during refactoring throughout the code base.</p>
+<p>I realized the issue was probably <em>me</em>, my inaccurate prompting.</p>
+<p>The fix:<br />
+- 💡 Start a new chat to reset context. Claude recovers instantly.</p>
+<p>Lesson learned — words matter more than I thought.</p>
+<h2>🤦 3. My real pain: Claude's presentations and artifacts</h2>
+<p>This one really hurts.<br />
+Claude makes great presentations — in HTML.<br />
+Not PowerPoint. Not Google Slides.<br />
+HTML.</p>
+<p>If you've ever tried converting HTML slides to PowerPoint, you know the pain.</p>
+<p>My current workflow:<br />
+- Edit HTML + CSS by hand.<br />
+- Take screenshots of each slide.<br />
+- Paste into PowerPoint or Google Slides.<br />
+- Resize until fonts look right.<br />
+- Export to PDF.</p>
+<p>Yes, it works. But it feels like building slides before PowerPoint existed.</p>
+<p>Longer decks (15–20 slides) often break mid-generation. Claude usually fixes them — but it can take 5–10 iterations before I get a clean version.</p>
+<p>Still, I'll take that over writing decks from scratch.</p>
+<h2>🤔4. Sometimes Claude doesn't know something</h2>
+<p>Rarely, but this can happen. Specifically, I had to help Claude when coding for the ROS2 robotics platform.</p>
+<p>Claude assumed a certain way to run a ROS2 node, which failed during testing.</p>
+<p>My fix:<br />
+I give Claude a working example file. She reads it, adapts instantly, and corrects herself.</p>
+<p>With the right example, Claude becomes an instant domain expert.</p>
+<h2>🪰5. Debugging and testing</h2>
+<p>Claude debugs surprisingly well — but someone still needs to act as the architect, debugger, and systems engineer.</p>
+<p>In my project she installs npm modules, Python libraries, sets up venv and runs tests, but I usually handle the environment setup — like installing ROS2 or configuring GPUs.</p>
+<p>I use VS Code with Claude's plugin. It's fantastic — no need for Cursor.</p>
+<h2>❤️ Why I Love Claude (No Matter What)</h2>
+<p>Because the trade-off is unbeatable.</p>
+<p>Claude writes my code, drafts my business plans, helps me explore funding strategies, drafts NDAs for manufacturers, and even gives feedback on resumes.</p>
+<p>I can ask (and have asked over and over):<br />
+- "What if I raise early and aggressively?"<br />
+- "What if I bootstrap longer?"<br />
+- "How should I pitch to investors vs job applicants vs factories in China?"</p>
+<p>Claude answers in seconds — and helps me think harder. That said, it does take <em>me</em> tens of minutes to digest Claude's advice. That's my flaw, not Claude's.</p>
+<p>So yes, Claude has flaws.<br />
+But overall, she's the best cofounder I've ever had — energetic, brilliant, and humble enough to learn.</p>
+<h2>Final thought:</h2>
+<p>If you're a founder or engineer considering using Claude for real-world product work — do it.<br />
+Just remember: treat her like a promising junior developer.<br />
+Guide her with senior wisdom.<br />
+And enjoy the 48× speedup.</p>
+            </div>
+
+            <a href="../index.html" class="back-link">← Back to Blog</a>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ilia Ovsiannikov. All rights reserved.</p>
+    </footer>
+</body>
+</html>
