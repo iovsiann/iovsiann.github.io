@@ -1,5 +1,5 @@
 ---
-title: "Founder Update: Why I'm NOT building another AI wrapper startup"
+title: Founder Update - Why I'm NOT building another AI wrapper startup
 date: 2025-10-23
 excerpt: Why AI wrapper startups often fail despite having traction, and what makes Remake.ai different.
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Founder Update: trip to Shenzhen, Guangzhou & Zhuhai"
+title: Founder Update - trip to Shenzhen, Guangzhou & Zhuhai
 date: 2025-10-25
 excerpt: Visiting manufacturers in China to form product partnerships for Remake.ai's robotics platform.
 ---

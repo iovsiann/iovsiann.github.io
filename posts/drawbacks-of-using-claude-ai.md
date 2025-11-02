@@ -1,5 +1,5 @@
 ---
-title: "Founder Update: The Drawbacks of Using Claude.ai"
+title: Founder Update - The Drawbacks of Using Claude.ai
 date: 2025-10-15
 excerpt: An honest assessment of Claude's limitations - and why I still consider it my best cofounder despite the drawbacks.
 ---

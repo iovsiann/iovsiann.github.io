@@ -1,5 +1,5 @@
 ---
-title: "Founder Update: I'm Investing $1M in Remake.ai Personally"
+title: Founder Update - I'm Investing $1M in Remake.ai Personally
 date: 2025-10-09
 excerpt: The robotics platform race has begun, and I'm committing $1M of personal capital to build the first App Store for consumer robots.
 ---
