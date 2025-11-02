@@ -167,7 +167,9 @@ main {
     font-size: 2.5rem;
     color: var(--primary-color);
     margin-bottom: 0.5rem;
-    background-color: transparent;
+    background-color: unset;
+    box-shadow: unset;
+    position: unset;
     background: none;
 }
 
