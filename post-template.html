@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{TITLE}} - Ilia Ovsiannikov</title>
+    <meta name="description" content="{{EXCERPT}}">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html" class="logo">Ilia Ovsiannikov</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Blog</a></li>
+                <li><a href="../resume.html">Resume</a></li>
+                <li><a href="https://www.linkedin.com/in/iliao/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://scholar.google.com/citations?user=UMqM9DQAAAAJ" target="_blank">Publications</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <header class="post-header">
+                <h1 class="post-title">{{TITLE}}</h1>
+                <div class="post-meta">
+                    <time datetime="{{DATE_ISO}}">{{DATE_DISPLAY}}</time>
+                </div>
+            </header>
+
+            <div class="post-content">
+                {{CONTENT}}
+            </div>
+
+            <a href="../index.html" class="back-link">← Back to Blog</a>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ilia Ovsiannikov. All rights reserved.</p>
+        <p>Email: ilya at ovsy dot com</p>
+    </footer>
+</body>
+</html>
