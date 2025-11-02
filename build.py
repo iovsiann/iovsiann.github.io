@@ -141,6 +141,49 @@ def process_post(md_file):
     }
 
 
+def generate_rss(posts):
+    """Generate RSS feed for blog posts."""
+    print("Generating rss.xml...")
+
+    base_url = "https://ovsy.com"
+
+    # Start RSS feed
+    rss = '''<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Ilia Ovsiannikov - Blog</title>
+        <link>https://ovsy.com</link>
+        <description>Startup founder updates and observations on how startups are changing in 2025</description>
+        <language>en-us</language>
+        <atom:link href="https://ovsy.com/rss.xml" rel="self" type="application/rss+xml"/>
+'''
+
+    # Add blog posts (already sorted by date, newest first)
+    for post in posts:
+        # Convert date to RFC 822 format for RSS
+        date_obj = datetime.strptime(post['date'], '%Y-%m-%d')
+        pub_date = date_obj.strftime('%a, %d %b %Y 00:00:00 GMT')
+
+        rss += f'''        <item>
+            <title>{post['title']}</title>
+            <link>{base_url}/{post['url']}</link>
+            <guid>{base_url}/{post['url']}</guid>
+            <pubDate>{pub_date}</pubDate>
+            <description>{post['excerpt']}</description>
+        </item>
+'''
+
+    rss += '''    </channel>
+</rss>
+'''
+
+    # Write RSS file
+    with open('rss.xml', 'w', encoding='utf-8') as f:
+        f.write(rss)
+
+    print(f"  → Generated rss.xml with {len(posts)} posts")
+
+
 def generate_sitemap(posts):
     """Generate sitemap.xml for SEO."""
     print("Generating sitemap.xml...")
@@ -260,10 +303,11 @@ def main():
 
     print()
 
-    # Update index page and generate sitemap
+    # Update index page and generate sitemap and RSS feed
     if posts:
         generate_index(posts)
         generate_sitemap(posts)
+        generate_rss(posts)
 
     print()
     print("=" * 60)

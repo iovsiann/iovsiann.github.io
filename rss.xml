@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Ilia Ovsiannikov - Blog</title>
+        <link>https://ovsy.com</link>
+        <description>Startup founder updates and observations on how startups are changing in 2025</description>
+        <language>en-us</language>
+        <atom:link href="https://ovsy.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>Founder Update - trip to Shenzhen, Guangzhou & Zhuhai</title>
+            <link>https://ovsy.com/posts/founder-update-trip-to-shenzhen-guangzhou-zhuhai.html</link>
+            <guid>https://ovsy.com/posts/founder-update-trip-to-shenzhen-guangzhou-zhuhai.html</guid>
+            <pubDate>Sat, 25 Oct 2025 00:00:00 GMT</pubDate>
+            <description>Visiting manufacturers in China to form product partnerships for Remake.ai's robotics platform.</description>
+        </item>
+        <item>
+            <title>Founder Update - Why I'm NOT building another AI wrapper startup</title>
+            <link>https://ovsy.com/posts/founder-update-why-im-not-building-another-ai-wrapper-startup.html</link>
+            <guid>https://ovsy.com/posts/founder-update-why-im-not-building-another-ai-wrapper-startup.html</guid>
+            <pubDate>Thu, 23 Oct 2025 00:00:00 GMT</pubDate>
+            <description>Why AI wrapper startups often fail despite having traction, and what makes Remake.ai different.</description>
+        </item>
+        <item>
+            <title>Founder Update - The Drawbacks of Using Claude.ai</title>
+            <link>https://ovsy.com/posts/founder-update-the-drawbacks-of-using-claudeai.html</link>
+            <guid>https://ovsy.com/posts/founder-update-the-drawbacks-of-using-claudeai.html</guid>
+            <pubDate>Wed, 15 Oct 2025 00:00:00 GMT</pubDate>
+            <description>An honest assessment of Claude's limitations - and why I still consider it my best cofounder despite the drawbacks.</description>
+        </item>
+        <item>
+            <title>Founder Update - I'm Investing $1M in Remake.ai Personally</title>
+            <link>https://ovsy.com/posts/founder-update-im-investing-1m-in-remakeai-personally.html</link>
+            <guid>https://ovsy.com/posts/founder-update-im-investing-1m-in-remakeai-personally.html</guid>
+            <pubDate>Thu, 09 Oct 2025 00:00:00 GMT</pubDate>
+            <description>The robotics platform race has begun, and I'm committing $1M of personal capital to build the first App Store for consumer robots.</description>
+        </item>
+        <item>
+            <title>My Startup Cofounder is Not Human</title>
+            <link>https://ovsy.com/posts/my-startup-cofounder-is-not-human.html</link>
+            <guid>https://ovsy.com/posts/my-startup-cofounder-is-not-human.html</guid>
+            <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
+            <description>Why I chose Claude AI as my startup cofounder after searching for a human partner for a month.</description>
+        </item>
+        <item>
+            <title>Delegation Coding > Vibe Coding</title>
+            <link>https://ovsy.com/posts/delegation-coding-vibe-coding.html</link>
+            <guid>https://ovsy.com/posts/delegation-coding-vibe-coding.html</guid>
+            <pubDate>Tue, 23 Sep 2025 00:00:00 GMT</pubDate>
+            <description>How AI-assisted coding is transforming startup development and changing fundamental calculations about capital and cofounders.</description>
+        </item>
+        <item>
+            <title>My Search for a Startup Cofounder</title>
+            <link>https://ovsy.com/posts/my-search-for-a-startup-cofounder.html</link>
+            <guid>https://ovsy.com/posts/my-search-for-a-startup-cofounder.html</guid>
+            <pubDate>Tue, 23 Sep 2025 00:00:00 GMT</pubDate>
+            <description>How I searched for a startup cofounder and what I learned about the process in 2025.</description>
+        </item>
+    </channel>
+</rss>
