@@ -141,6 +141,53 @@ def process_post(md_file):
     }
 
 
+def generate_sitemap(posts):
+    """Generate sitemap.xml for SEO."""
+    print("Generating sitemap.xml...")
+
+    base_url = "https://ovsy.com"
+
+    # Start sitemap XML
+    sitemap = '''<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+'''
+
+    # Add main pages
+    main_pages = [
+        ('', '1.0', 'daily'),  # Homepage
+        ('resume.html', '0.8', 'monthly'),
+        ('patents.html', '0.6', 'yearly'),
+        ('publications.html', '0.6', 'yearly'),
+    ]
+
+    for page, priority, changefreq in main_pages:
+        url = f"{base_url}/{page}" if page else base_url
+        sitemap += f'''    <url>
+        <loc>{url}</loc>
+        <changefreq>{changefreq}</changefreq>
+        <priority>{priority}</priority>
+    </url>
+'''
+
+    # Add blog posts
+    for post in posts:
+        sitemap += f'''    <url>
+        <loc>{base_url}/{post['url']}</loc>
+        <lastmod>{post['date']}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+'''
+
+    sitemap += '</urlset>\n'
+
+    # Write sitemap file
+    with open('sitemap.xml', 'w', encoding='utf-8') as f:
+        f.write(sitemap)
+
+    print(f"  → Generated sitemap.xml with {len(posts) + len(main_pages)} URLs")
+
+
 def generate_index(posts):
     """Update index.html with list of blog posts."""
     print("Updating index.html...")
@@ -213,9 +260,10 @@ def main():
 
     print()
 
-    # Update index page
+    # Update index page and generate sitemap
     if posts:
         generate_index(posts)
+        generate_sitemap(posts)
 
     print()
     print("=" * 60)
