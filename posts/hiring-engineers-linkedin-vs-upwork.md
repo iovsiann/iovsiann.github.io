@@ -6,7 +6,7 @@ excerpt: My process for finding and screening remote engineering talent quickly 
 
 Early-stage startups need face-to-face collaboration. Yet, I'd like to hire remotely for cost savings. Can I have BOTH?
 
-My solution: hire internationally and fly periodically to co-work in person. Details in my previous post: https://ovsy.com/posts/why-im-flying-to-work-with-my-remote-engineers-instead-of-finding-a-bay-area-cofounder.html
+My solution: hire internationally and fly periodically to co-work in person. Details in my [previous post](https://ovsy.com/posts/why-im-flying-to-work-with-my-remote-engineers-instead-of-finding-a-bay-area-cofounder.html).
 
 In this post I describe how to find, screen and hire remote talent quickly. Here's what actually works.
 
