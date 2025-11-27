@@ -7,6 +7,13 @@
         <language>en-us</language>
         <atom:link href="https://ovsy.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title>Why I'm Building an App Platform for Robot Vacuums Instead of Humanoids</title>
+            <link>https://ovsy.com/posts/why-im-building-an-app-platform-for-robot-vacuums-instead-of-humanoids.html</link>
+            <guid>https://ovsy.com/posts/why-im-building-an-app-platform-for-robot-vacuums-instead-of-humanoids.html</guid>
+            <pubDate>Wed, 26 Nov 2025 00:00:00 GMT</pubDate>
+            <description>With 22.1 million robot vacuums shipped globally and 10%+ US household penetration, I'm starting with the deployed robot base that exists today—not betting on a humanoid future that may take years to materialize.</description>
+        </item>
+        <item>
             <title>How I Hire Engineers for My Early Stage Startup - LinkedIn vs. Upwork</title>
             <link>https://ovsy.com/posts/how-i-hire-engineers-for-my-early-stage-startup-linkedin-vs-upwork.html</link>
             <guid>https://ovsy.com/posts/how-i-hire-engineers-for-my-early-stage-startup-linkedin-vs-upwork.html</guid>
@@ -63,18 +70,18 @@
             <description>Why I chose Claude AI as my startup cofounder after searching for a human partner for a month.</description>
         </item>
         <item>
-            <title>Delegation Coding > Vibe Coding</title>
-            <link>https://ovsy.com/posts/delegation-coding-vibe-coding.html</link>
-            <guid>https://ovsy.com/posts/delegation-coding-vibe-coding.html</guid>
-            <pubDate>Tue, 23 Sep 2025 00:00:00 GMT</pubDate>
-            <description>How AI-assisted coding is transforming startup development and changing fundamental calculations about capital and cofounders.</description>
-        </item>
-        <item>
             <title>My Search for a Startup Cofounder</title>
             <link>https://ovsy.com/posts/my-search-for-a-startup-cofounder.html</link>
             <guid>https://ovsy.com/posts/my-search-for-a-startup-cofounder.html</guid>
             <pubDate>Tue, 23 Sep 2025 00:00:00 GMT</pubDate>
             <description>How I searched for a startup cofounder and what I learned about the process in 2025.</description>
+        </item>
+        <item>
+            <title>Delegation Coding > Vibe Coding</title>
+            <link>https://ovsy.com/posts/delegation-coding-vibe-coding.html</link>
+            <guid>https://ovsy.com/posts/delegation-coding-vibe-coding.html</guid>
+            <pubDate>Tue, 23 Sep 2025 00:00:00 GMT</pubDate>
+            <description>How AI-assisted coding is transforming startup development and changing fundamental calculations about capital and cofounders.</description>
         </item>
     </channel>
 </rss>

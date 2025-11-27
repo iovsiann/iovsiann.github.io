@@ -21,6 +21,12 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://ovsy.com/posts/why-im-building-an-app-platform-for-robot-vacuums-instead-of-humanoids.html</loc>
+        <lastmod>2025-11-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://ovsy.com/posts/how-i-hire-engineers-for-my-early-stage-startup-linkedin-vs-upwork.html</loc>
         <lastmod>2025-11-05</lastmod>
         <changefreq>monthly</changefreq>
@@ -69,13 +75,13 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://ovsy.com/posts/delegation-coding-vibe-coding.html</loc>
+        <loc>https://ovsy.com/posts/my-search-for-a-startup-cofounder.html</loc>
         <lastmod>2025-09-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://ovsy.com/posts/my-search-for-a-startup-cofounder.html</loc>
+        <loc>https://ovsy.com/posts/delegation-coding-vibe-coding.html</loc>
         <lastmod>2025-09-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
